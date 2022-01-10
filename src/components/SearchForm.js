@@ -15,9 +15,9 @@ export default function SearchForm() {
     e.preventDefault()
   }
   return (
-    <section className='section search'>
-      <form className='search-form' onSubmit={handleSubmit}>
-        <div className='form-control'>
+    <section className=''>
+      <form className='' onSubmit={handleSubmit}>
+        <div className='form-control' align="center">
           <label htmlFor='name'>search your favorite cocktail</label>
           <input
             type='text'

@@ -246,7 +246,7 @@ Cocktail
   box-shadow: var(--darkShadow);
 }
 .cocktail img {
-  height: 20rem;
+  height: 15rem;
   object-fit: cover;
   border-top-left-radius: var(--mainBorderRadius);
   border-top-right-radius: var(--mainBorderRadius);
@@ -272,7 +272,7 @@ Form
 ======
 */
 .search {
-  margin-top: 1rem;
+  
   padding-bottom: 0;
 }
 
@@ -295,7 +295,7 @@ Form
   color: var(--primaryColor);
 }
 .form-control input {
-  width: 100%;
+  width: 30%;
   border: none;
   border-color: transparent;
   background: var(--mainBackground);
