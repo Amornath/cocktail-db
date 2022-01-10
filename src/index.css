@@ -132,12 +132,12 @@ Navbar
 ======
 */
 .navbar {
-  background: var(--mainWhite);
-  height: 5rem;
+  background: rgb(139, 125, 125);
+  height: 4rem;
   display: flex;
   align-items: center;
   border-bottom: 2px solid var(--primaryColor);
-  box-shadow: var(--lightShadow);
+ 
 }
 .nav-center {
   display: flex;
@@ -150,6 +150,7 @@ Navbar
 .nav-links {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 .nav-links a {
   text-transform: capitalize;
